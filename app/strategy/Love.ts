@@ -5,7 +5,7 @@ class Love implements Weapon {
     readonly name: string = 'love'
     
     attack(): string {
-        return `I'll beat you with my ${this.name}!`
+        return `I'll beat you with my ${this.name}!\n`
     }
 }
 

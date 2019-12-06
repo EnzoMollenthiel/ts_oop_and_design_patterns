@@ -29,7 +29,7 @@ class Dog extends Animal implements DomesticAnimal {
         
         return `Hi ! I'm ${this.name}, I'm ${this.height} tall and my weight's ${this.weight}! ` +
             `I'm ${this.isDocile ? 'very docile! I love you!': "not really docile, I'm gonna kill you son of a bitch!"} ` + 
-            `My owner's ${this.owner} is a really good person.`
+            `My owner ${this.owner} is a really good person.\n`
     }
 }
 

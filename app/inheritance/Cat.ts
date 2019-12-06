@@ -17,7 +17,7 @@ class Cat extends Animal {
 
     getInfos(): string {
         return `Hi... I'm ${this.name}, I'm ${this.height} tall and my weight's ${this.weight}. ` +
-            `Seems like i'm ${ this.isCuddle ? 'very cuddle' : 'not cuddle at all'}. I don't really care about you...`
+            `Seems like i'm ${ this.isCuddle ? 'very cuddle' : 'not cuddle at all'}. I don't really care about you...\n`
     }
 }
 
